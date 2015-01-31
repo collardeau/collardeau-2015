@@ -98,13 +98,13 @@
 		<a href="ajax/contact.html" data-reveal-ajax="true" data-reveal-id="contact" class="contact hint--left" data-hint="Contact &amp; Info" data-reveal-id="contact"><i class="icon-envelope" ></i></a>
 		
 		<h1 class="titre"><a href="/">Thomas Collardeau</a></h1>
-		<h3 class="subheader producer">Web Developer</h3>
-		<h3 class="subheader cities">New York, Amsterdam <br />Now in <span class="slant">Prague</span></h3>
+		<h3 class="subheader producer">App &amp; Web Developer</h3>
+		<h3 class="subheader cities">London, Amsterdam, Barcelona <br />Now <span class="slant">available</span></h3>
 
 		<div class="controls">
 			<ul>
-				<li id="menu-2" class="filter hint--top" data-filter="webdev" data-hint="Web Developing"><i class="icon-globe"></i></li>
-				<li id="menu-1" class="filter hint--top" data-filter="videos" data-hint="Video"><i class="icon-film"></i></li>
+				<li id="menu-2" class="filter hint--top" data-filter="webdev" data-hint="Developing"><i class="icon-globe"></i></li>
+				<li id="menu-1" class="filter hint--top" data-filter="videos" data-hint="Videomaking"><i class="icon-film"></i></li>
 				<li id="menu-3" class="filter hint--top" data-filter="network" data-hint="Social Media"><i class="icon-comments"></i></li>
 				<li id="menu-4" class="filter hint--top" data-filter="all" data-hint="View All"><i class="icon-refresh"></i></li>
 			</ul>
@@ -141,18 +141,6 @@
 			</div>
 		</div>
 
- 		<div class="mix network">
-			<div class="overBlox">
-				<a href="http://twitter.com/collardeau" class="twitterHandle">@collardeau</a>
-				<p class="tweet">"Rainy day in Praha. Good way to get coding."<br />
-				<small> 12 August, 2014</small></p>
-			</div>
-			<div class="social project twitter">
-				<img src="./img/twitterCover2.png" width="360" height="270" alt="img" />
-				
-			</div>
-		</div>
-
 		<div class="mix webdev">
 		
 			<div class="web project">
@@ -164,7 +152,7 @@
 						<li><a href="http://fadeinfilms.com">fadeinfilms.com</a></li>
 					</ul>
 					<h2>Film Company<br />Website</h2>
-					<small>JQuery/HTML/CSS</small>
+					<small>Javascript,jQuery</small>
  				</div>
 			</div>
 		</div>
@@ -178,25 +166,55 @@
 					<i class="icon-globe"></i>
 					
 					<ul>
-						<li>Web App<br /><a href="http://ontheinside.info">http://ontheinside.info</a></li>
+						<li>Web Magazine<br /><a href="http://ontheinside.info">http://ontheinside.info</a></li>
 					</ul>
 					<p>New York Digital City Guide</p>
-					<small>Founder/Manager</small>
+					<small>Founder</small>
  				</div>
 			</div>
 
 		</div>
 
-<!-- 		<div id="agatha" class="mix videos">
+		<div class="mix network">
+			<div class="overBlox">
+				<a href="http://twitter.com/collardeau" class="twitterHandle">@collardeau</a>
+				<p class="tweet">"Rainy day in Berlin. Good way to get coding."<br />
+				<small> 12 January, 2015</small></p>
+			</div>
+			<div class="social project twitter">
+				<img src="./img/twitterCover2.png" width="360" height="270" alt="img" />
+				
+			</div>
+		</div>
+
+		<div id="agatha" class="mix videos">
 			<div class="vid project">
 				<img src="./img/agatha3.jpg" width="480" height="270" alt="img" />
 				<div>	
 					<h2>AGATHA</h2>
-						<p>See the Videos<br /><a href="ajax/agatha-1.html" data-reveal-ajax="true" data-reveal-id="agatha-1">1</a> <a href="ajax/agatha-2.html" data-reveal-ajax="true" data-reveal-id="agatha-2">2</a></p>
+						<p>See the fashion <a href="ajax/agatha-1.html" data-reveal-ajax="true" data-reveal-id="agatha-1">Video</a> 
+							<!-- <a href="ajax/agatha-2.html" data-reveal-ajax="true" data-reveal-id="agatha-2">2</a> -->
+						</p>
 					<i class="icon-film"></i>
 				</div>
 			</div>
-		</div> -->
+		</div>
+
+		<div class="mix webdev">
+		
+			<div class="web project">
+
+				<img src="./img/frobel6.jpg" width="360" height="270" alt="img" />
+				<div>
+					<i class="icon-globe"></i>
+					<ul>
+						<li><a href="http://johnfrobelhong.com">johnfrobelhong.com</a></li>
+					</ul>
+					<h2>Artist website</h2>
+					<small>Responsive HTML5</small>
+				</div>
+			</div>
+		</div>
 
 		<div id="bikers" class="mix videos">
 			<div class="vid project">
@@ -268,7 +286,7 @@
 
 		<div id="summer2012"  class="mix videos">
 			<div class="vid project">
-				<img src="./img/summer2012.jpg" width="480" height="270" alt="img" />
+				<img src="./img/summer2012-2.jpg" width="480" height="270" alt="img" />
 				<div>
 					<h2>Summer 2012</h2>
 					<ul>
@@ -279,7 +297,7 @@
 			</div>
 		</div>
 
-		<div class="mix webdev">
+<!-- 		<div class="mix webdev">
 
 			<div class="web project">
 
@@ -294,7 +312,7 @@
 					<small>Developer</small>
  				</div>
 			</div>
-		</div>
+		</div> -->
 	
 <!-- 		<div id="lacoste" class="mix videos">
 			<div class="vid project">
@@ -335,22 +353,6 @@
 			</div>
 		</div> -->
 
-		<div class="mix webdev">
-		
-			<div class="web project">
-
-				<img src="./img/frobel6.jpg" width="360" height="270" alt="img" />
-				<div>
-					<i class="icon-globe"></i>
-					<ul>
-						<li><a href="http://johnfrobelhong.com">johnfrobelhong.com</a></li>
-					</ul>
-					<h2>Artist website</h2>
-					<small>Javascript</small>
-				</div>
-			</div>
-		</div>
-
 		<div class="mix network">
 			<div class="social project instagram">
 				<img src="./img/instagram-3.jpg" width="270" height="270" alt="img" />
@@ -381,15 +383,15 @@
 		<div class="mix network">
 			<div class="overBlox">
 				<a href="http://twitter.com/collardeau" class="twitterHandle">@collardeau</a>
-				<p class="tweet">"Using Zurb Foundation front-end framework to build myself a new site. Responsive design, mobile first. :)"<br />
-				<small> 22 September, 2013</small></p>
+				<p class="tweet">"Using AngularJS to build a new one-page app. MC* for the win :)"<br />
+				<small> 22 September, 2014</small></p>
 			</div>
 			<div class="social project twitter">
 				<img src="./img/twitterCover2.png" width="360" height="270" alt="img" />
 			</div>
 		</div>
 
-<!-- 		<div id="audition" class="mix videos">
+		<div id="audition" class="mix videos">
 			<div class="vid project">
 				<img src="./img/audition.jpg" width="480" height="270" alt="img" />				
 				<div>
@@ -400,7 +402,7 @@
 					<i class="icon-film"></i>
 				</div>
 			</div>
-		</div> -->
+		</div>
 
 <!-- 		<div id="sofitel"  class="mix videos">
 			<div class="vid project">
