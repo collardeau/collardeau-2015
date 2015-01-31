@@ -1,0 +1,39 @@
+body {
+  font-size: 0.6em;
+}
+body .container .projects {
+  width: 20em;
+  height: 60em;
+  float: left;
+}
+body .container .projects .project {
+  border-bottom: 1px solid;
+  cursor: pointer;
+}
+body .container .projects .project p {
+  display: none;
+}
+body .container .frontEnd {
+  float: left;
+  width: 12em;
+  height: 60em;
+  padding-left: 1em;
+}
+body .container .librairies {
+  float: left;
+  width: 12em;
+  height: 60em;
+  padding-left: 1em;
+}
+body .container .backEnd {
+  float: left;
+  width: 12em;
+  height: 60em;
+  padding-left: 1em;
+}
+body .container .frameworks {
+  float: left;
+  width: 12em;
+  height: 60em;
+  padding-left: 1em;
+}

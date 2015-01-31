@@ -1,0 +1,11 @@
+#AddType image/x-icon .ico
+#ExpiresActive On
+#ExpiresByType image/gif "access plus 4 weeks"
+#ExpiresByType image/jpeg "access plus 2 weeks"
+#ExpiresByType image/png "access plus 4 weeks"
+#ExpiresByType text/plain "access plus 30 days"
+#ExpiresByType image/x-icon "access plus 30 days"
+#ExpiresByType image/ico "access plus 30 days"
+#ExpiresByType text/css "access plus 1 weeks"
+#ExpiresByType text/javascript "access plus 1 weeks"
+#ExpiresByType application/x-javascript "access plus 1 weeks"
