@@ -10,76 +10,6 @@
   	<title>Collardeau.com</title>
   	<meta name="description" content="Thomas Collardeau: Work and Portfolio">
 
- 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
- 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
- 	<script src="js/bloxhover.jquery.min.js"></script>
-
-	<script>
-
-		$(document).ready(function(){ 
-
-			$('header').hide();
-			$('.content').css({"visibility": "hidden"});
-
-		    $('.vid').bloxhover({
-		            effect: "horizontal alternate", // accepted strings: 'square', 'square reveal', 'vertical', 'vertical reveal', 'vertical alternate', 'vertical alternate reveal', 'horizontal', 'horizontal reveal', 'horizontal alternate', 'horizontal alternate reveal'
-		            sliceCount: 5, // the number of slices 
-		            color: 'rgba(0, 0, 0, 0.6)', //rgba color of the slices
-		            duration: 360, //how long should the animation of each slice last
-		            delay: 40 // delay between slice animations
-		        });
-
-		    $('.web').bloxhover({effect: 'vertical alternate', duration: 360, sliceCount: 5, delay: 40, color: 'rgba(1, 1, 1, 0.6)'
-		        });
-
-		    $('.instagram').bloxhover({effect: 'square', duration: 360, sliceCount: 16, delay: 40, color: 'rgba(0, 0, 0, 0.6)'
-		        });
-
-		    $('.twitter').bloxhover({
-		            effect: "vertical reveal", // accepted strings: 'square', 'square reveal', 'vertical', 'vertical reveal', 'vertical alternate', 'vertical alternate reveal', 'horizontal', 'horizontal reveal', 'horizontal alternate', 'horizontal alternate reveal'
-		            sliceCount: 1, // the number of slices 
-		            color: 'rgba(122,83,101, 0.25)', //rgba color of the slices
-		            duration: 100, //how long should the animation of each slice last
-		            delay: 20 // delay between slice animations
-		        });
-
-		    var controller = $.superscrollorama({
-		        triggerAtCenter: false,
-		        playoutAnimations: true,
-		        reverse: true 
-    	});
-    
-    		controller.addTween('header', TweenMax.from( $('#Grid'),1.2, {css:{top: '3.2em'}}));
-
-
-    		$('#Grid').mixitup();
-
-
-		});
-
-		$(window).load(function() {
-		    $('header').show();
-		    $('.content').css({"visibility": "visible"});
-
-		    // TweenMax.from( $('header'), 2, {css:{opacity: 0}, delay: 0, ease:Quad.easeOut});
-		    // TweenMax.from( $('.producer'), 1.8, {css:{opacity: 0}, delay: 1, ease:Quad.easeOut});
-		    // TweenMax.from($('.titre, #menu-2'), 1.5, {css:{opacity: 0, top:-1800}, delay: 0.5, ease:Quad.easeInOut});
-		    // TweenMax.from( $('.cities'), 1.5, {css:{opacity: 0, right: -1800}, delay: 3, ease:Quad.easeOut});
-		    // TweenMax.from($('.contact'), 2, {css:{left: -2500, bottom: -500, rotation: -6000}, delay: 2, ease:Quad.easeInOut});
-		    // TweenMax.from( $('#menu-1'), 1.5, {css:{top: '-1100px'}, delay: 1.5, ease:Quad.easeInOut});
-		    // TweenMax.from( $('#menu-3'), 1, {css:{top: '-900px'}, delay: 3.5, ease:Quad.easeInOut});
-		    // TweenMax.from( $('#menu-4'), 0.7, {css:{top: '-1200px'}, delay: 3.8, ease:Quad.easeInOut});
-		    // //TweenMax.from( $('#menu-2'), 0.5, {css:{top: '-1200px'}, delay: 4.5, ease:Quad.easeInOut});
-		    // TweenMax.from( $('.project'), 2, {css:{opacity: 0, bottom: -1500}, delay: 2, ease:Quad.easeOut});
-		    // TweenMax.from( $('.overBlox'), 2, {css:{opacity: 0}, delay: 3.5, ease:Quad.easeOut});
-
-		});
-
-	</script>
-
-	<script type="text/javascript" src="js/master.min.js"></script>
-
 	<link rel="shortcut icon" href="http://new.collardeau.com/img/favicon.ico" />
 
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet /">
@@ -99,7 +29,7 @@
 		
 		<h1 class="titre"><a href="/">Thomas Collardeau</a></h1>
 		<h3 class="subheader producer">App &amp; Web Developer</h3>
-		<h3 class="subheader cities">London, Amsterdam, Barcelona <br />Now <span class="slant">available</span></h3>
+		<h3 class="subheader cities">Berlin <br /></h3>
 
 		<div class="controls">
 			<ul>
@@ -128,12 +58,12 @@
 		<div class="mix webdev">
 			<div class="web project">
 
-				<img src="./img/logo/artJunk.png" width="270" height="270" alt="img" />
+				<img id="artJunk" width="270" height="270" alt="img" />
 				<div>
 					<i class="icon-globe"></i>
 					
 					<ul>
-						<li>HTML5 app<br /><a href="http://www.artjunk.org/">http://www.artjunk.org/</a></li>
+						<li>HTML5 app<br /><a href="http://www.artjunk.org/" target="_blank">http://www.artjunk.org/</a></li>
 					</ul>
 					<!-- <p>Find artist materials</p> -->
 					<small>Front-end Dev</small>
@@ -145,11 +75,11 @@
 		
 			<div class="web project">
 
-				<img src="./img/fadein_bluelogo.png" width="270" height="270" alt="img" />
+				<img id="fadeIn" width="270" height="270" alt="img" />
 				<div>
 					<i class="icon-globe"></i>
 					<ul>
-						<li><a href="http://fadeinfilms.com">fadeinfilms.com</a></li>
+						<li><a target="_blank" href="http://fadeinfilms.com">fadeinfilms.com</a></li>
 					</ul>
 					<h2>Film Company<br />Website</h2>
 					<small>Javascript,jQuery</small>
@@ -161,12 +91,12 @@
 		
 			<div class="web project">
 
-				<img src="./img/panorama.jpg" width="360" height="270" alt="img" />
+				<img id="oti" width="360" height="270" alt="img" />
 				<div>
 					<i class="icon-globe"></i>
 					
 					<ul>
-						<li>Web Magazine<br /><a href="http://ontheinside.info">http://ontheinside.info</a></li>
+						<li>Web Magazine<br /><a target="_blank" href="http://ontheinside.info">http://ontheinside.info</a></li>
 					</ul>
 					<p>New York Digital City Guide</p>
 					<small>Founder</small>
@@ -182,14 +112,14 @@
 				<small> 12 January, 2015</small></p>
 			</div>
 			<div class="social project twitter">
-				<img src="./img/twitterCover2.png" width="360" height="270" alt="img" />
+				<img class="twitter-pic" width="360" height="270" alt="img" />
 				
 			</div>
 		</div>
 
-		<div id="agatha" class="mix videos">
+		<div class="mix videos">
 			<div class="vid project">
-				<img src="./img/agatha3.jpg" width="480" height="270" alt="img" />
+				<img id="agatha" width="480" height="270" alt="img" />
 				<div>	
 					<h2>AGATHA</h2>
 						<p>See the fashion <a href="ajax/agatha-1.html" data-reveal-ajax="true" data-reveal-id="agatha-1">Video</a> 
@@ -204,11 +134,11 @@
 		
 			<div class="web project">
 
-				<img src="./img/frobel6.jpg" width="360" height="270" alt="img" />
+				<img id="johnHong" width="360" height="270" alt="img" />
 				<div>
 					<i class="icon-globe"></i>
 					<ul>
-						<li><a href="http://johnfrobelhong.com">johnfrobelhong.com</a></li>
+						<li><a target="_blank" href="http://johnfrobelhong.com">johnfrobelhong.com</a></li>
 					</ul>
 					<h2>Artist website</h2>
 					<small>Responsive HTML5</small>
@@ -216,9 +146,9 @@
 			</div>
 		</div>
 
-		<div id="bikers" class="mix videos">
+		<div class="mix videos">
 			<div class="vid project">
-				<img src="./img/bikers.jpg" width="480" height="270" alt="img" />				
+				<img id="bikers" width="480" height="270" alt="img" />
 				<div>
 					<h2>Bicyclists</h2>
 					<ul>
@@ -233,11 +163,11 @@
 		
 			<div class="web project">
 
-				<img src="./img/tennisBall3.png" width="270" height="270" alt="img" />
+				<img id="tennisGame" width="270" height="270" alt="img" />
 				<div>
 					<i class="icon-globe"></i>
 					<ul>
-						<li><a href="http://tennis.collardeau.com">tennis.collardeau.com</a></li>
+						<li><a target="_blank" href="http://tennis.collardeau.com">tennis.collardeau.com</a></li>
 					</ul>
 					<h2>Tennis Simulation</h2>
 					<small>Javascript</small>
@@ -284,9 +214,9 @@
 			</div>
 		</div> -->
 
-		<div id="summer2012"  class="mix videos">
+		<div class="mix videos">
 			<div class="vid project">
-				<img src="./img/summer2012-2.jpg" width="480" height="270" alt="img" />
+				<img id="summer2012" width="480" height="270" alt="img" />
 				<div>
 					<h2>Summer 2012</h2>
 					<ul>
@@ -355,7 +285,7 @@
 
 		<div class="mix network">
 			<div class="social project instagram">
-				<img src="./img/instagram-3.jpg" width="270" height="270" alt="img" />
+				<img id="insta-mex-pic" width="270" height="270" alt="img" />
 				
 				<div>
 					<a href="http://instagram.com/collardeau"><i class="icon-instagram"></i></a>
@@ -368,7 +298,7 @@
 		
 			<div class="web project">
 
-				<img src="./img/mic_poster.png" width="270" height="270" alt="img" />
+				<img id="karaoke" width="270" height="270" alt="img" />
 				<div>
 					<i class="icon-globe"></i>
 					<h2>Karaoke Proto</h2>
@@ -387,13 +317,13 @@
 				<small> 22 September, 2014</small></p>
 			</div>
 			<div class="social project twitter">
-				<img src="./img/twitterCover2.png" width="360" height="270" alt="img" />
+				<img class="twitter-pic" width="360" height="270" alt="img" />
 			</div>
 		</div>
 
-		<div id="audition" class="mix videos">
+		<div class="mix videos">
 			<div class="vid project">
-				<img src="./img/audition.jpg" width="480" height="270" alt="img" />				
+				<img id="audition" width="480" height="270" alt="img" />
 				<div>
 					<h2>Audition</h2>
 					<ul>
@@ -421,7 +351,7 @@
 		
 			<div class="web project">
 
-				<img src="./img/constantine2.jpg" width="360" height="270" alt="img" />
+				<img id="constantine" width="360" height="270" alt="img" />
 				<div>
 					<i class="icon-globe"></i>
 					<ul>
@@ -545,12 +475,17 @@
 	</div>
 
 	<div id="_123-2" class="reveal-modal large">
-	</div>  
+	</div>
 
-	 <script>
+	 	<!--<script src="node_modules/jquery/dist/jquery.min.js"></script>-->
 
-	 	$(document).foundation();
-	 </script>
+
+     	<!--<script src="js/bloxhover.jquery.min.js"></script>-->
+
+     	<script type="text/javascript" src="js/main.js"></script>
+
+        <!--<script type="text/javascript" src="js/app.js"></script>-->
+
 
 	 <script type="text/javascript">
 

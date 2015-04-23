@@ -4,11 +4,15 @@ var concat = require('gulp-concat');
 gulp.task('scripts', function() {
 
   gulp.src( [
+          //'js/custom.modernizr.js',
+          'node_modules/jquery/dist/jquery.min.js',
+          'js/foundation.min.js',
           'js/superscrollorama/greensock/TweenMax.min.js',
           'js/superscrollorama/jquery.lettering-0.6.1.min.js',
           'js/superscrollorama/jquery.superscrollorama.js',
           'js/mixitup/jquery.mixitup.js',
-          'js/foundation.min.js'
+          'js/bloxhover.jquery.min.js',
+          'js/app.js'
     ]
   )
     .pipe(concat('main.js'))
