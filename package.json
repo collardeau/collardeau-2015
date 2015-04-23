@@ -1,0 +1,16 @@
+{
+  "name": "collardeau2013",
+  "version": "1.0.0",
+  "description": "portfolio site",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Collardeau",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "jquery": "^2.1.3"
+  }
+}
