@@ -1,6 +1,10 @@
 var gulp = require('gulp');
 var concat = require('gulp-concat');
 
+var paths = {
+    js: ['./js/**/*.js']
+};
+
 gulp.task('scripts', function() {
 
   gulp.src( [
@@ -18,6 +22,10 @@ gulp.task('scripts', function() {
     .pipe(concat('main.js'))
     .pipe(gulp.dest('js'));
 
+});
+
+gulp.task('watch', function() {
+    gulp.watch(paths.js, ['scripts']);
 });
 
 gulp.task('default', ['scripts']);
