@@ -8,9 +8,10 @@ $(document).ready(function(){
     // need to load photo after dom ready for bloxhover to work
     $('#artJunk').attr('src', './img/logo/artJunk.png');
     $('#fadeIn').attr('src', './img/fadein_bluelogo.png');
-    $('#oti').attr('src', './img/panorama.jpg');
+    $('#oti-pic').attr('src', './img/oti-yellow2.gif');
     $('#agatha').attr('src', './img/agatha3.jpg');
     $('#johnHong').attr('src', './img/frobel6.jpg');
+    $('#collardeau-pic').attr('src', './img/collardeau.png');
     $('#bikers').attr('src', './img/bikers.jpg');
     $('#tennisGame').attr('src', './img/tennisBall3.png');
     $('#summer2012').attr('src', './img/summer2012-2.jpg');
