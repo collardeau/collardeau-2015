@@ -26,7 +26,7 @@
 <body>
 
 	<header class="row full-width">
-        <a href="ajax/contact.html" data-reveal-ajax="true" data-reveal-id="contact" class="contact hint--bottom" data-hint="contact" data-reveal-id="contact"><i class="fa fa-info" ></i></a>
+        <a href="ajax/contact.html" data-reveal-ajax="true" data-reveal-id="contact" class="contact hint--bottom" data-hint="info" data-reveal-id="contact"><i class="fa fa-info" ></i></a>
         <a href="http://twitter.com/collardeau" class="contact hint--bottom" data-hint="twitter"><i class="fa fa-twitter" ></i></a>
         <a href="http://github.com/collardeau" class="contact hint--bottom" data-hint="github"><i class="fa fa-github" ></i></a>
 
@@ -37,25 +37,59 @@
 		<div class="controls">
             <p class="secondary">Filter:</p>
 			<ul>
-				<li id="menu-3" class="filter hint--top" data-filter="network" data-hint="Social"><i class="fa fa-comments"></i></li>
-				<li id="menu-1" class="filter hint--top" data-filter="videos" data-hint="Media"><i class="fa fa-film"></i></li>
-				<li id="menu-2" class="filter hint--top" data-filter="webdev" data-hint="Dev"><i class="fa fa-code"></i></li>
 				<li id="menu-4" class="filter hint--top" data-filter="all" data-hint="View All"><i class="fa fa-home"></i></li>
+				<li id="menu-2" class="filter hint--top" data-filter="webdev" data-hint="Dev"><i class="fa fa-code"></i></li>
+				<li id="menu-1" class="filter hint--top" data-filter="videos" data-hint="Media"><i class="fa fa-film"></i></li>
+				<li id="menu-3" class="filter hint--top" data-filter="network" data-hint="Social"><i class="fa fa-comments"></i></li>
 			</ul>
 		</div>
 	</header>
 
 	<div id="Grid" class="content">
 
+        <div class="mix webdev">
+            <div class="web project">
+
+                <img id="whatNow-pic" width="270" height="270" alt="img" />
+                <div>
+                    <i class="fa fa-globe"></i>
+
+                    <ul>
+                        <li>Ionic/AngularJS app<br />
+                            <a href="https://what-next.firebaseapp.com/#/login">web version</a></li>
+                    </ul>
+                    <!-- <p>Find artist materials</p> -->
+                    <small>Front-end Dev</small>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mix network">
+            <div class="overBlox">
+                <a href="http://twitter.com/collardeau" class="twitterHandle">@collardeau</a>
+                <p class="tweet">"Nice applied #js meetup last night. Loving the tech scene in #Berlin! ."<br />
+                    <small> 24 April, 2015</small></p>
+            </div>
+            <div class="social project twitter">
+                <img class="twitter-pic" width="360" height="270" alt="img" />
+
+            </div>
+        </div>
+
 		<div class="mix webdev">
 			<div class="web project">
 
 				<img id="artJunk" width="270" height="270" alt="img" />
 				<div>
-					<i class="icon-globe"></i>
-					
+					<i class="fa fa-globe"></i>
+
 					<ul>
-						<li>HTML5 app<br /><a href="http://www.artjunk.org/" target="_blank">http://www.artjunk.org/</a></li>
+						<li>HTML5 Hybrid app<br />
+                            <a href="http://www.artjunk.org/">http://www.artjunk.org/</a></li><br />
+                            <a href="https://itunes.apple.com/app/art-junk/id844111077">Itunes Store</a></li><br />
+
+                        <li></li>
 					</ul>
 					<!-- <p>Find artist materials</p> -->
 					<small>Front-end Dev</small>
@@ -63,59 +97,81 @@
 			</div>
 		</div>
 
+        <div class="mix webdev">
+
+            <div class="web project">
+
+                <img id="fadeIn" width="270" height="270" alt="img" />
+                <div>
+                    <i class="fa fa-globe"></i>
+                    <ul>
+						<li><a href="http://fadeinfilms.com">fadeinfilms.com</a></li>
+					</ul>
+                    <h2>Film Company<br />Website</h2>
+                    <small>Javascript,jQuery</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="mix network">
+            <div class="social project instagram">
+                <img id="insta-berliner-pic" width="270" height="270" alt="img" />
+
+                <div>
+                    <a href="http://instagram.com/collardeau"><i class="fa fa-instagram"></i></a>
+                    <p>"Another Berliner Day"<br /><small> September 2015</small></p>
+                </div>
+            </div>
+        </div>
+
 		<div class="mix webdev">
 		
 			<div class="web project">
 
-				<img id="fadeIn" width="270" height="270" alt="img" />
+				<img id="johnHong" width="350" height="270" alt="img" />
 				<div>
-					<i class="icon-globe"></i>
+					<i class="fa fa-globe"></i>
 					<ul>
-						<li><a target="_blank" href="http://fadeinfilms.com">fadeinfilms.com</a></li>
+						<li><a href="http://johnfrobelhong.com">johnfrobelhong.com</a></li>
 					</ul>
-					<h2>Film Company<br />Website</h2>
-					<small>Javascript,jQuery</small>
- 				</div>
-			</div>
-		</div>
-
-		<div class="mix network">
-			<div class="overBlox">
-				<a href="http://twitter.com/collardeau" class="twitterHandle">@collardeau</a>
-				<p class="tweet">"Nice applied #js meetup last night. Loving the tech scene in #Berlin! ."<br />
-				<small> 24 April, 2015</small></p>
-			</div>
-			<div class="social project twitter">
-				<img class="twitter-pic" width="360" height="270" alt="img" />
-				
-			</div>
-		</div>
-
-		<div class="mix webdev">
-		
-			<div class="web project">
-
-				<img id="johnHong" width="360" height="270" alt="img" />
-				<div>
-					<i class="icon-globe"></i>
-					<ul>
-						<li><a target="_blank" href="http://johnfrobelhong.com">johnfrobelhong.com</a></li>
-					</ul>
-					<h2>Artist website</h2>
-					<small>Responsive HTML5</small>
+					<h2>Painter portfolio</h2>
+					<small>Responsive HTML5, Design, CSS</small>
 				</div>
 			</div>
 		</div>
 
+        <div class="mix network">
+            <div class="social project instagram">
+                <img id="insta-reactweek-pic" width="270" height="270" alt="img" />
+
+                <div>
+                    <a href="http://instagram.com/collardeau"><i class="fa fa-instagram"></i></a>
+                    <p>"Geek out with some react.js #reactWeek #devMountain"<br /><small> March 2015</small></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mix network">
+            <div class="overBlox">
+                <a href="http://twitter.com/collardeau" class="twitterHandle">@collardeau</a>
+                <p class="tweet">"I'm going to PhoneGap Day EU 2015 on May 18th. Ionic will be there! "<br />
+                    <small> 21 April 2015</small></p>
+            </div>
+            <div class="social project twitter">
+                <img class="twitter-pic" width="360" height="270" alt="img" />
+            </div>
+        </div>
+
 		<div class="mix videos">
 			<div class="vid project">
-				<img id="bikers" width="480" height="270" alt="img" />
+				<img id="bikers" width="477" height="270" alt="img" />
 				<div>
-					<h2>Bicyclists</h2>
+					<h2>The Bicyclists</h2>
+                    <small>Final Cut Pro, Twixtor</small>
 					<ul>
-						<li>See the <a href="ajax/bikers-1.html" data-reveal-ajax="true" data-reveal-id="bikers-1">Video</a></li>
+						<li>See the <a href="ajax/bikers-1.html" data-reveal-ajax="true" data-reveal-id="bikers-1">Mood Film</a></li>
 					</ul>
-					<i class="icon-film"></i>
+					<i class="fa fa-film"></i>
 				</div>
 			</div>
 		</div>
@@ -126,9 +182,9 @@
 
 				<img id="tennisGame" width="270" height="270" alt="img" />
 				<div>
-					<i class="icon-globe"></i>
+					<i class="fa fa-globe"></i>
 					<ul>
-						<li><a target="_blank" href="http://tennis.collardeau.com">tennis.collardeau.com</a></li>
+						<li><a href="http://tennis.collardeau.com">tennis.collardeau.com</a></li>
 					</ul>
 					<h2>Tennis Simulation</h2>
 					<small>Javascript Experiment</small>
@@ -141,10 +197,11 @@
 				<img id="summer2012" width="480" height="270" alt="img" />
 				<div>
 					<h2>Summer 2012</h2>
+                    <small>Edited with Adobe Premiere</small>
 					<ul>
-						<li>See the <a href="ajax/summer2012-1.html" data-reveal-ajax="true" data-reveal-id="summer2012-1">Video</a></li>
+						<li>See the <a href="ajax/summer2012-1.html" data-reveal-ajax="true" data-reveal-id="summer2012-1">Mood Film</a></li>
 					</ul>
-					<i class="icon-film"></i>
+					<i class="fa fa-film"></i>
 				</div>
 			</div>
 		</div>
@@ -152,27 +209,27 @@
 		<div class="mix network">
 			<div class="social project instagram">
 				<img id="insta-mex-pic" width="270" height="270" alt="img" />
-				
+
 				<div>
-					<a href="http://instagram.com/collardeau"><i class="icon-instagram"></i></a>
+					<a href="http://instagram.com/collardeau"><i class="fa fa-instagram"></i></a>
 					<p>"Made it to Central America #mexico #newland"<br /><small> September 2013</small></p>
 				</div>
 			</div>
 		</div>
 
-        <div class="mix webdev">
+        <div class="mix videos">
 
             <div class="web project">
 
                 <img id="oti-pic" width="360" height="270" alt="img" />
                 <div>
-                    <i class="icon-globe"></i>
+                    <i class="fa fa-globe"></i>
 
                     <ul>
-                        <li>Web Magazine<br /><a target="_blank" href="http://ontheinside.info">http://ontheinside.info</a></li>
+                        <li>Digital Magazine<br /><a href="http://ontheinside.info">http://ontheinside.info</a></li>
                     </ul>
-                    <p>New York Digital City Guide</p>
-                    <small>Founder</small>
+                    <p>Personality-driven City Guide</p>
+                    <small>Co-Founder</small>
                 </div>
             </div>
 
@@ -184,7 +241,7 @@
 
 				<img id="karaoke" width="270" height="270" alt="img" />
 				<div>
-					<i class="icon-globe"></i>
+					<i class="fa fa-globe"></i>
 					<h2>Karaoke Proto</h2>
 					<ul>
 						<li><a href="http://karaoke.collardeau.com">karaoke.collardeau.com</a></li>
@@ -198,14 +255,14 @@
 
             <div class="web project">
 
-                <img id="collardeau-pic" width="480" height="270" alt="img" />
+                <img id="collardeau-pic" width="445" height="270" alt="img" />
                 <div>
-                    <i class="icon-globe"></i>
+                    <i class="fa fa-globe"></i>
                     <ul>
-                        <li><a target="_blank" href="http://collardeau.com">collardeau.com</a></li>
+                        <li><a href="http://collardeau.com">collardeau.com</a></li>
                     </ul>
-                    <h2>Film Portfolio<br />Website</h2>
-                    <small>Code Igniter?</small>
+                    <h2>Film Portfolio</h2>
+                    <small>Code Igniter, PHP, JS</small>
                 </div>
             </div>
         </div>
@@ -226,10 +283,11 @@
 				<img id="audition" width="480" height="270" alt="img" />
 				<div>
 					<h2>Audition</h2>
+                    <small>Directed & Edited</small>
 					<ul>
 						<li>See the <a href="ajax/audition-1.html" data-reveal-ajax="true" data-reveal-id="audition-1">Short Film</a></li>
 					</ul>
-					<i class="icon-film"></i>
+					<i class="fa fa-film"></i>
 				</div>
 			</div>
 		</div>
@@ -238,9 +296,9 @@
 		
 			<div class="web project">
 
-				<img id="constantine" width="360" height="270" alt="img" />
+				<img id="constantine" width="270" height="270" alt="img" />
 				<div>
-					<i class="icon-globe"></i>
+					<i class="fa fa-globe"></i>
 					<ul>
 						<li><a href="http://studioconstantine.collardeau.com">studioconstantine.com</a></li>
 					</ul>

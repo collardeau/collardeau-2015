@@ -66,7 +66,7 @@ h1 a:hover{
 /*HEADER*/
 
 header {
-	background-image: url("../img/backgrounds/bokeh.jpg");
+	background-image: url("../img/backgrounds/tonton2.jpg");
 	background-size: cover;
     background-repeat: no-repeat;
 	position: relative;
@@ -77,11 +77,17 @@ header {
 }
 
 .slant {
-	color: #F4776D;
+	/*color: #ED7366;*/
+    color: #CE7B6C;
+    font-weight: bolder;
+
 }
 
 .secondary {
-    color: #605264;
+    /*color: #B09EC2;*/
+    color: #CE7B6C;
+    font-weight: bold;
+    letter-spacing: 0.2em;
 }
 
 /*contact me and menu items*/
@@ -100,7 +106,8 @@ header i {
 
 /*All About the filter menu*/
 .filter {
-	background-color:rgba(253,225,192,0.5);
+	/*background-color:rgba(253,225,192,0.5);*/
+	background-color:rgba(206,123,108,0.5);
 	color: #222;
 /*	//width: 6em;*/
 	/*box-shadow: -1px -2px 15px #221C28;*/
@@ -120,7 +127,8 @@ header i {
 	text-align: right;
 	padding-right: 2em;
 	padding-bottom: 1em;
-    font-size: 1.5em;
+    font-size: 1.3em;
+    /*border: 1px dotted #CE7B6C;;*/
 }
 
 .controls h5 {

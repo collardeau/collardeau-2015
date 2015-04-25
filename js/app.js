@@ -6,20 +6,23 @@ $(document).ready(function(){
     $('.content').css({"visibility": "hidden"});
 
     // need to load photo after dom ready for bloxhover to work
+    $('#whatNow-pic').attr('src', './img/whatNow.jpg');
     $('#artJunk').attr('src', './img/logo/artJunk.png');
     $('#fadeIn').attr('src', './img/fadein_bluelogo.png');
-    $('#oti-pic').attr('src', './img/oti-yellow2.gif');
+    $('#oti-pic').attr('src', './img/oti-yellow.png');
     $('#agatha').attr('src', './img/agatha3.jpg');
     $('#johnHong').attr('src', './img/frobel6.jpg');
     $('#collardeau-pic').attr('src', './img/collardeau.png');
-    $('#bikers').attr('src', './img/bikers.jpg');
+    $('#bikers').attr('src', './img/bikers2.jpg');
     $('#tennisGame').attr('src', './img/tennisBall3.png');
     $('#summer2012').attr('src', './img/summer2012-2.jpg');
     $('#karaoke').attr('src', './img/mic_poster.png');
     $('#audition').attr('src', './img/audition.jpg');
-    $('#constantine').attr('src', './img/constantine2.jpg');
+    $('#constantine').attr('src', './img/constantine.jpg');
     $('.twitter-pic').attr('src', './img/twitterCover2.png');
     $('#insta-mex-pic').attr('src', './img/instagram-3.jpg');
+    $('#insta-reactweek-pic').attr('src', './img/reactWeek.jpg');
+    $('#insta-berliner-pic').attr('src', './img/insta-berliner.jpg');
 
     $('.vid').bloxhover({
         effect: "horizontal alternate", // accepted strings: 'square', 'square reveal', 'vertical', 'vertical reveal', 'vertical alternate', 'vertical alternate reveal', 'horizontal', 'horizontal reveal', 'horizontal alternate', 'horizontal alternate reveal'
