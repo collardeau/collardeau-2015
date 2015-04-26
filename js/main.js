@@ -1849,8 +1849,8 @@ $(document).foundation();
 
 $(document).ready(function(){
 
-    $('header').hide();
-    $('.content').css({"visibility": "hidden"});
+    //$('header').hide();
+    //$('.content').css({"visibility": "hidden"});
 
     // need to load photo after dom ready for bloxhover to work
     $('#whatNow-pic').attr('src', './img/whatNow.jpg');
@@ -1899,16 +1899,14 @@ $(document).ready(function(){
         reverse: true
     });
 
-    controller.addTween('header', TweenMax.from( $('#Grid'),1.2, {css:{top: '3.2em'}}));
-
+    controller.addTween('header', TweenMax.from( $('#Grid'),1.6, {css:{top: '3.2em'}}));
 
     $('#Grid').mixitup();
 
-
 });
 
-$(window).load(function() {
-    $('header').show();
-    $('.content').css({"visibility": "visible"});
-
-});
+//$(window).load(function() {
+//    $('header').show();
+//    $('.content').css({"visibility": "visible"});
+//
+//});
