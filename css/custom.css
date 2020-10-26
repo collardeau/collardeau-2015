@@ -11,7 +11,7 @@ body {
 /*used in header*/
 h1, h4 {
 	text-align: center;
-	text-shadow: -1px 2px #222333;
+	/*text-shadow: -1px 2px #222333;*/
 	text-transform: uppercase;
 	font-size: 1.8em;
 
@@ -35,6 +35,7 @@ h2 {
 h3 {
 	/*text-shadow: 1px 2px #222333;*/
     text-align: center;
+	text-transform: uppercase;
 }
 
 p, ul, ul li, a[href]  {
@@ -44,8 +45,9 @@ p, ul, ul li, a[href]  {
 /*ANCHOR COLORS*/
 
 h1 a[href], h3.subheader {
-	color: rgba(253,225,192,0.9);
-	font-family: "Trykker";
+	color: rgba(253,225,192,1);
+	font-family: "Droid Sans", sans-serif;
+	letter-spacing: 2px;
 }
 
 h1 a:hover{
@@ -66,7 +68,7 @@ h1 a:hover{
 /*HEADER*/
 
 header {
-	background-image: url("../img/backgrounds/tonton4.jpg");
+	background-image: url("../img/backgrounds/bokeh5.jpg");
 	background-size: cover;
     background-repeat: no-repeat;
 	position: relative;
@@ -78,16 +80,16 @@ header {
 
 .slant {
 	/*color: #ED7366;*/
-    color: #CE7B6C;
+    color: #F65252;
     font-weight: bolder;
 
 }
 
 .secondary {
     /*color: #B09EC2;*/
-    color: #CE7B6C;
+    /*color: rgba(253,225,192,0.9);*/
     font-weight: bold;
-    letter-spacing: 0.2em;
+    letter-spacing: 2px;
     margin-bottom: 1em;
 }
 
@@ -97,30 +99,33 @@ header i {
 }
 
 .contact i {
-	color: rgba(253,225,192,0.9);
+	color: rgba(253,225,192,0.8);
+	transition: all 0.5s;
 }
 
 .contact i:hover {
-	color: white;
+	color: rgba(253,225,192,1);
 }
 
 
 /*All About the filter menu*/
 .filter {
 	/*background-color:rgba(253,225,192,0.5);*/
-	background-color:rgba(206,123,108,0.5);
+	background-color:rgba(246,82,82,0.5);
 	color: #222;
 /*	//width: 6em;*/
+	/*box-shadow: -1px -2px 15px #221C28;*/
 	/*box-shadow: -1px -2px 15px #221C28;*/
 	padding: 0.4em;
 	width: 3em;
 	text-align: center;
 	border-radius: 3em;
+	transition: all 0.5s;
 }
 
 .filter:hover {
 	cursor: pointer;
-    background-color: #fff;
+    background-color: rgba(246,82,82,0.8);
 }
 
 .controls {
